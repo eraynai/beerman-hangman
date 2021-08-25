@@ -2,4 +2,4 @@
 
 #### Description 
 
-A beer themed hangman game.
+A beer themed hangman game. This game is super fun to play.
