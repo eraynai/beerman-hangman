@@ -11,16 +11,6 @@ function App() {
 		<Router>
 			<div className='App'>
 				<Nav />
-				{/* <nav>
-					<ul>
-						<li>
-							<Link to='/'>Landing Page</Link>
-						</li>
-						<li>
-							<Link to='/profile'>Profile</Link>
-						</li>
-					</ul>
-				</nav> */}
 				<Switch>
 					<Route exact path='/'>
 						<LandingPage />
