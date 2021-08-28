@@ -1,21 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class GamePage extends Component {
-	state = {
-		buttonClicked: true,
-	};
+import Header from '../../components/Header/Header';
 
-	handleClick = () => {
-		this.setState({ buttonClicked: false });
-	};
-
-	render() {
-		return (
-			<div>
-				<h1>Game Page</h1>
-			</div>
-		);
-	}
-}
+const GamePage = () => {
+	return (
+		<div>
+			<Header />
+		</div>
+	);
+};
 
 export default GamePage;

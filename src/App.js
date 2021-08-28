@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
 	return (
 		<Router>
-			<div className='App'>
+			<>
 				<Nav />
 				<Switch>
 					<Route exact path='/'>
@@ -25,7 +25,7 @@ function App() {
 						<HighScorePage />
 					</Route>
 				</Switch>
-			</div>
+			</>
 		</Router>
 	);
 }
